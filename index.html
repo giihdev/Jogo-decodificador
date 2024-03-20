@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de texto</title>
+    <link rel=" stylesheet" href="style.css"> 
+</head>
+<body>
+    <header>
+    </header>
+    <main class="apresentacao">
+        <section class="apresentacao__conteudo">
+            <div class="input">
+                <div>
+                    <input type="text" id="input-text" name="textoOriginal" placeholder="Digite seu texto"> <br><br>
+                </div>
+                <div class="aviso">
+                    <img src="imagens/exclamaçao.svg">
+                    <p>Apenas letras minúsculas e sem acento.</p>
+                </div>
+            </div>
+            <div class="buttons">
+                <div class="container-bnt">
+                    <button onclick="criptografar()" class="btn-criptografar">criptografar</button> 
+                    <button onclick="descriptografar()" class="btn-descriptografar">descriptografar</button><br><br>
+                </div>
+            </div>
+        </section>
+        <section class="saida">
+            <div id="output">
+                <div>
+                    <img class="img-gato" src="imagens/gatinho.jpg">
+                </div>
+                <div class="saida__textos">
+                    <h1 class="titulo">Nenhuma mensagem</h1>
+                    <p class="paragrafo">  Digite um texto que deseja criptografar</p>
+                </div>
+            </div>
+            <button class="btn-copiar" id="copiar" onclick="copiar()">Copiar</button>
+        </section>
+    </main>
+    <footer class="rodape">
+        <p>Feito por Gisele Cristine</p>
+        <p>Criado em 2024</p>
+    </footer>
+        <script src="doc.js"></script>
+</body>
+</html>

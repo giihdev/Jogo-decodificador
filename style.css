@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=David+Libre:wght@400;500;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Rufina:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #FBF3D5;
+}
+
+.apresentacao{
+    display:flex;
+    justify-content: center;
+    padding: 5% 15%;
+    gap: 80px;
+}
+
+.apresentacao__conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50%;
+}
+
+#input-text {
+    font-size: 32px;
+    background-color: #FBF3D5;
+    border: none;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.aviso{
+    display: flex;
+    gap: 6px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #0A3871;
+}
+
+.saida{
+    background-color: #EFBC9B;
+    width: 400px;
+    height: 800px;
+    padding: 24px;
+    border-radius: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+}
+
+#output{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    gap: 25px;
+}
+
+.saida__textos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+}
+
+.titulo{
+    font-size: 24px;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.paragrafo {
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+        
+}
+
+.btn-copiar{
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.container-bnt{
+    display: flex;
+    gap: 24px;
+    justify-content: start;
+}
+
+.btn-criptografar{
+    border: none;
+    border-radius: 24px;
+    background-color: #EFBC9B;
+    padding: 24px;
+    width: 328px;
+    height: 67px;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: black;
+    font-size: 20px;
+}
+
+.btn-descriptografar{
+    border: none;
+    border-radius: 24px;
+    background-color: #EFBC9B;
+    padding: 24px;
+    width: 328px;
+    height: 67px;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: black;
+    font-size: 20px;
+}
+
+.img-gato{
+    width: 336px;
+    border-radius: 20px;
+}
